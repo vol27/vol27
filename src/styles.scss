@@ -38,12 +38,14 @@ $front-theme: mat.define-light-theme((
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
 
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 
@@ -52,6 +54,9 @@ $front-theme: mat.define-light-theme((
 
     scrollbar-color: #458245;     /* «цвет ползунка» «цвет полосы скроллбара» */
     scrollbar:  thin ;  /* толщина */
+    font-family: ArialNarrow,Tahoma,serif;
+    color: #707070;
+    font-size: 14px;
   }
 
 
@@ -73,10 +78,33 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .white-back{
   background:#fff;
 }
+
+.black-important .white-icon{
+  color: #000;
+}
+.black-important .white-icon svg{
+  fill: #333;
+}
+.black-important .header_lang{
+  color: #333!important;
+}
+
+.black-important .logo  {
+  color: #333!important;
+}
+
+
+.black-important .header_top{
+  background:#fff;
+}
+
 .fixed{
   position: fixed;
   width: 100%;
 }
+
+
+
 
 
 .size- {

@@ -24,11 +24,46 @@
 .header_top{
   display: grid;
   grid-template-columns:1fr 1fr 1fr;
+  height: 87px;
 
+}
+
+.header_fixed{
+  width:100%;
+  height:200px;
+  position: relative;
+
+}
+
+.header_fixed_block{
+  width:100%;
+  height:200px;
+  top:0;
+  position: fixed;
 }
 .header_logo{
   margin:20px auto ;
   height: 100%;
+}
+.logo{
+  text-align: center;
+  color:#fff;
+}
+
+.logo-top-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+
+}
+
+.logo-text{
+  font-family: 'Allura', cursive;
+  font-size: 26px;
+  display: block;
+  margin-top:7px;
 }
 
 .header_logo img{
@@ -36,25 +71,31 @@
 }
 
 .header_btn_menu{
-  margin: 40px auto ;
-}
-.header_lang{
-  margin:40px auto;
-}
-.content{
-  height :800px;
-  width: 100%;
+  margin: 30px auto ;
 }
 
+.content{
+
+  width: 100%;
+
+}
+
+.header_lang{
+  margin:32px auto;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
 
 .lang_item{
-  color: #fff;
+
   display: inline-block;
   padding-right: 2px;
   padding-left: 2px;
-  font-weight: 600;
-  font-size: 18px;
+
   text-align: center;
+
 }
 .ua{
   border-right: 1px solid;
@@ -65,13 +106,116 @@
 
 
 .header_content{
-  margin: 36% 0px 0px 298px;
+  margin: 35.7% 0px 0px 380px;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
 }
 .header_content h1{
   font-size: 34px;
   font-weight: 600;
-  text-shadow: 1px 1px 2px black, 0 0 1em black;
 
 }
+.header_content p{
+  display: block;
+  margin-top:10px;
+}
+.btn_pay{
+  border: 2px solid #ba983b;
+  color: white;
+  width: 133px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color .5s;
+  background-color: rgba(0, 0, 0, .8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.descr_top{
+  display: flex;
+  justify-content: center;
+  padding: 101px 0;
+  color: #363636;
+  font-family: 'Montserrat', sans-serif;
+
+  &__item:nth-of-type(2) {
+    margin: 0 70px;
+  }
+
+  &__item{
+
+    align-items:center;
+    align-self: center;
+    justify-self: center;
+    width: 20%;
+    font-size: 16px;
+    max-width:320px;
+    font-size: 16px;
+
+    color: #363636;
+    font-family: 'Montserrat', sans-serif;
+
+
+    &-header{
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+  &-content{
+    line-height: 23px;
+    font-size: 16px;
+    color: #363636;
+    line-height: 23px;
+  }
+  }
+}
+
+
+.top-banner{
+  width: 100%;
+  height:833px ;
+  background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/rose-box.jpg") no-repeat;
+  background-size: cover;
+
+
+  &__action{
+    left: 20%;
+    bottom: -654px;
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .sb_header_text{
+
+      color: white;
+      font-weight: 600;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 2px black, 0 0 1em black;
+      font-size: 34px;
+    }
+    .sb_button_submit{
+
+      border: 2px solid #ba983b;
+      color: white;
+      background-color: rgba(0, 0, 0, .5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 133px;
+      height: 44px;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+  }
+}
+
+
