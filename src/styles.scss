@@ -1,0 +1,114 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use '~@angular/material' as mat;
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat.core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$front-primary: mat.define-palette(mat.$indigo-palette);
+$front-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$front-warn: mat.define-palette(mat.$red-palette);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$front-theme: mat.define-light-theme((
+  color: (
+    primary: $front-primary,
+    accent: $front-accent,
+    warn: $front-warn,
+  )
+));
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include mat.all-component-themes($front-theme);
+
+/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+  html, body {
+
+    scrollbar-color: #458245;     /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar:  thin ;  /* толщина */
+  }
+
+
+.container{
+  max-width: 100%;
+  min-width: 320px;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.white-icon {
+  color: white;
+}
+/* Note: If you're using an SVG icon, you should make the class target the `<svg>` element */
+.white-icon svg {
+  fill: white;
+}
+
+.white-back{
+  background:#fff;
+}
+.fixed{
+  position: fixed;
+  width: 100%;
+}
+
+
+.size- {
+  font-weight: bold;
+  font-size: 30px;
+
+}
+
+.container{
+
+}
+
+
+
+/* полоса прокрутки (скроллбар) */
+::-webkit-scrollbar {
+  width: 4px; /* ширина для вертикального скролла */
+  height: 2px; /* высота для горизонтального скролла */
+
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+  background-color: #843465;
+  border-radius: 9em;
+  box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #253861;
+}
+
+/* Стрелки */
+
+::-webkit-scrollbar-button:vertical:start:decrement {
+  background: linear-gradient(120deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+  linear-gradient(240deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+  linear-gradient(0deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+  background-color: #f6f8f4;
+}
+
+

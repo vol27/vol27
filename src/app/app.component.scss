@@ -1,0 +1,38 @@
+.header{
+  width: 100%;
+
+}
+
+
+.header_wrap{
+
+  background: url(https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/main-top.jpg) 100% 0 no-repeat; /* Добавляем фон */
+  background-size: cover;
+  max-width: 1913px;
+  height:100%;
+
+
+}
+
+.wrap{
+  min-height: 1000px;
+}
+
+
+
+
+.header_top{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+
+}
+.header_logo{
+  margin:20px 0 0 0 ;
+  text-align: center;
+}
+.header_btn_menu{
+  margin: 40px 0 0 262px ;
+}
+.header_lang{
+  margin:40px 0 0 0 ;
+}
