@@ -1,0 +1,30 @@
+<form [formGroup]="form" (ngSubmit)="submit()" class="landing-form-fields">
+
+  <div class="form-control">
+    <input id="fio" type="fio" formControlName="fio" placeholder="Ф.И.О">
+  </div>
+  <div class="form-control">
+    <input id="phone" type="phone" formControlName="phone" placeholder="Контактный номер телефона">
+  </div>
+
+  <div class="form-control">
+    <input id="email" type="email" formControlName="email" placeholder="Ваш E-Mail">
+  </div>
+
+  <div class="form-control">
+    <input id="country" type="text" formControlName="country" placeholder="Страна">
+  </div>
+
+
+  <div class="form-control">
+    <input id="city" type="text" formControlName="city" placeholder="Город">
+  </div>
+
+
+  <div class="form-control">
+    <input id="message" type="text" formControlName="message" placeholder="Введите сообщение...">
+  </div>
+  <button type="submit" class="landing-submit" [disabled]="form ">ЗАКАЗАТЬ</button>
+
+
+</form>

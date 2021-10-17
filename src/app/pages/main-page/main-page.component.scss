@@ -1,0 +1,505 @@
+.header{
+  width:100%;
+  height: 1148px;
+
+}
+
+
+.header_wrap{
+
+  background: url(https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/main-top.jpg) 0 0 no-repeat; /* Добавляем фон */
+  background-size: cover;
+  max-width: 1913px;
+  width:100%;
+  height: 100%
+
+
+}
+
+.wrap{
+  min-height: 1000px;
+}
+
+
+.header_top{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  height: 87px;
+
+}
+
+.header_fixed{
+  width:100%;
+  height:200px;
+  position: relative;
+
+}
+
+.header_fixed_block{
+  width:100%;
+  height:200px;
+  top:0;
+  position: fixed;
+}
+.header_logo{
+  margin:20px auto ;
+  height: 100%;
+}
+.logo{
+  text-align: center;
+  color:#fff;
+}
+
+.logo-top-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+
+}
+
+.logo-text{
+  font-family: 'Allura', cursive;
+  font-size: 26px;
+  display: block;
+  margin-top:7px;
+}
+
+.header_logo img{
+  height: 58px;
+}
+
+.header_btn_menu{
+  margin: 30px auto ;
+}
+
+.content{
+
+  width: 100%;
+
+}
+
+.header_lang{
+  margin:32px auto;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.lang_item{
+
+  display: inline-block;
+  padding-right: 2px;
+  padding-left: 2px;
+
+  text-align: center;
+
+}
+.ua{
+  border-right: 1px solid;
+  border-left: 1px solid;
+
+}
+
+
+
+.header_content{
+  margin: 35.7% 0px 0px 380px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+.header_content h1{
+  font-size: 34px;
+  font-weight: 600;
+
+}
+.header_content p{
+  display: block;
+  margin-top:10px;
+}
+.btn_pay{
+  border: 2px solid #ba983b;
+  color: white;
+  width: 133px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color .5s;
+  background-color: rgba(0, 0, 0, .8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.descr_top{
+  display: flex;
+  justify-content: center;
+  padding: 101px 0;
+  color: #363636;
+  font-family: 'Montserrat', sans-serif;
+
+  &__item:nth-of-type(2) {
+    margin: 0 70px;
+  }
+
+  &__item{
+
+    align-items:center;
+    align-self: center;
+    justify-self: center;
+    width: 20%;
+    font-size: 16px;
+    max-width:320px;
+    font-size: 16px;
+
+    color: #363636;
+    font-family: 'Montserrat', sans-serif;
+
+
+    &-header{
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    &-content{
+      line-height: 23px;
+      font-size: 16px;
+      color: #363636;
+      line-height: 23px;
+    }
+  }
+}
+
+
+.top-banner{
+  width: 100%;
+  height:833px ;
+  background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/rose-box.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+
+
+  &__action{
+    margin-bottom: 100px;
+    margin-left: 376px;
+
+    .sb_header_text{
+
+      color: white;
+      font-weight: 600;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 2px black, 0 0 1em black;
+      font-size: 34px;
+    }
+
+  }
+}
+.three_boxes{
+  display: flex;
+  justify-content: space-around;
+  width: 69%;
+  text-align: CENTER;
+  margin: 35px auto;
+
+  &_item_left{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/hat-box.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 800px;
+    max-width: 641px;
+  }
+
+  &_item_right{
+    width: 50%;
+    height: 800px;
+    max-width: 641px;
+
+    &_item{
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-start;
+      height: 390px;
+    }
+
+    .img1{
+      background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/rose-close-box.jpg");
+      background-size: cover;
+    }
+    .img2{
+      margin-top:20px;
+      background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/rose-akril-box.jpg");
+      background-size: cover;
+    }
+
+  }
+}
+
+
+.section-header{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #363636;
+  text-align: center;
+}
+
+.section-pre-header{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #363636;
+  width: 610px;
+  margin: 0 auto 40px auto;
+}
+
+.top-product-section{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 1280px;
+  margin: 0 auto 80px auto;
+}
+
+.top-product-section__item {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 302px;
+  margin:8px;
+}
+.top-product-section__item-desc {
+  margin-top: 18px;
+}
+.top-product-section__item-desc, .top-product-section__item-price {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  white-space:pre;
+}
+.top-product-section__item-desc{
+  color: #707070;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-top: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+.desc-min{
+  font-size:13px ;
+}
+.images-content{
+  background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/rose-box-bottom.jpg");
+  background-size: cover;
+  width: 100%;
+  height:1275px ;
+  display: flex;
+  align-items: flex-end;
+
+  .sb_block_action{
+    margin-bottom:100px;
+    margin-left: 300px;
+    box-sizing: border-box;
+
+
+  }
+ .sb_header_text{
+
+   font-weight: 600;
+   font-family: 'Montserrat', sans-serif;
+   margin-bottom: 20px;
+   text-shadow: 1px 1px 2px black, 0 0 1em black;
+   font-size: 34px;
+ }
+
+}
+
+.two-banner-row{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 87px;
+
+}
+.img-rose-bulb{
+  background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/rose-glass.jpg");
+  background-size: cover;
+  height: 458px;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  max-width: 685px;
+
+
+}
+.img-rose-toys{
+  background:url("https://sbuketami.com.ua//themes/dg-theme/images/sbuketami/rose-toy.jpg");
+  background-size: cover;
+  height: 458px;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  max-width: 685px;
+
+}
+.img-rose-delicious{
+  background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/rose-delicious.jpg");
+  background-size: cover;
+  height: 1275px;
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-end;
+}
+.marginLeft264px{
+  margin-left: 264px;
+  margin-bottom: 60px;
+}
+.marginLeft264px .sb_header_text{
+  font-size: 34px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+
+.section-block-collect{
+  display: flex;
+  justify-content: center;
+}
+.img-assemble-yourself{
+  background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/rose-builder.jpg");
+  background-size: cover;
+  max-width: 665px;
+  height: 998px;
+  display: flex;
+  justify-content: flex-end;
+  margin:20px;
+}
+.section-block-collect  > div > * {
+  margin-left:20px;
+  color:#fff;
+}
+.section-block-collect > div > .sb_button_submit{
+  margin-bottom: 15px;
+}
+.section-block-collect .sb_pre_header_text{
+  margin-bottom:30px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  margin-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+  font-size: 16px;
+  max-width: 600px;
+}
+
+.img-rose-gorgeous{
+  background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/rose-gorgeous.jpg");
+  background-size: cover;
+  max-width: 665px;
+  height: 998px;
+  display: flex;
+  justify-content: flex-end;
+}
+.section-landing-form{
+
+  width: 100%;
+}
+.app-landing-form{
+  display: flex;
+  justify-content: center;
+  width:100% ;
+  margin-top:70px;
+  margin-bottom: 84px;
+}
+.landing-submit{
+
+  border:1px solid;
+}
+.title-lading{
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #363636;
+  text-align: center;
+}
+.action-icons{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 77px;
+ img {
+    margin: 0 38px;
+  }
+}
+
+.paris {
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+  margin: 0 auto 40px auto;
+
+  .paris-box {
+    width: 635px;
+  }
+  .paris-box-star {
+    margin-bottom: 25px;
+  }
+  .paris-box-title {
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    color: #363636;
+    text-transform: uppercase;
+  }
+
+  .paris-box-desc {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #363636;
+    max-width: 465px;
+    line-height: 22px;
+  }
+
+  .paris-box-link {
+    font-weight: 600;
+    font-size: 20px;
+    color: #363636;
+    text-transform: uppercase;
+  }
+
+  .paris-box-link::after {
+    content: '\f105';
+    font: 19px/1 FontAwesome;
+    padding-left: 15px;
+  }
+}
+.paris-box-star i {
+  color: #E7B848;
+  font-size: 44px;
+  margin-right: 12px;
+}
+ .fa-star{
+  color: #E7B848;
+}

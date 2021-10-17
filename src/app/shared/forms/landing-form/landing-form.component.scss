@@ -1,0 +1,41 @@
+.landing-form-fields{
+  border:1px solid #000000;
+  padding: 30px;
+  max-width: 566px;
+  width: 100%;
+}
+
+.landing-form-fields input {
+  width: 100%;
+  height: 68px;
+  margin-top:15px;
+  text-indent: 10px;
+  font-family: 'Montserrat', sans-serif;
+
+  margin-bottom: 15px;
+  font-size: 23px;
+  padding: 21px 10px;
+  border: 1px solid #333;
+
+}
+
+
+.landing-form-fields input::placeholder{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+.landing-submit{
+  border: 2px solid #ba983b;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 133px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 20px auto 0;
+}
