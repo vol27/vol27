@@ -186,7 +186,6 @@
   &__action{
     left: 20%;
     bottom: -654px;
-    position: relative;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
@@ -200,22 +199,202 @@
       text-shadow: 1px 1px 2px black, 0 0 1em black;
       font-size: 34px;
     }
-    .sb_button_submit{
 
-      border: 2px solid #ba983b;
-      color: white;
-      background-color: rgba(0, 0, 0, .5);
+  }
+}
+.three_boxes{
+  display: flex;
+  justify-content: space-around;
+  width: 69%;
+  text-align: CENTER;
+  margin: 35px auto;
+
+  &_item_left{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/hat-box.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 800px;
+    max-width: 641px;
+  }
+
+  &_item_right{
+    width: 50%;
+    height: 800px;
+    max-width: 641px;
+
+    &_item{
       display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 133px;
-      height: 44px;
-      font-size: 16px;
-      font-weight: 500;
-      text-transform: uppercase;
-      cursor: pointer;
+      align-items: flex-end;
+      justify-content: flex-start;
+      height: 390px;
     }
+
+    .img1{
+      background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/rose-close-box.jpg");
+      background-size: cover;
+    }
+    .img2{
+      margin-top:20px;
+      background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/rose-akril-box.jpg");
+      background-size: cover;
+    }
+
   }
 }
 
 
+.section-header{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #363636;
+  text-align: center;
+}
+
+.section-pre-header{
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+margin-bottom: 10px;
+text-align: center;
+color: #363636;
+width: 610px;
+margin: 0 auto 40px auto;
+}
+
+.top-product-section{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 1280px;
+  margin: 0 auto 80px auto;
+}
+
+.top-product-section__item {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 302px;
+  margin:8px;
+}
+.top-product-section__item-desc {
+  margin-top: 18px;
+}
+.top-product-section__item-desc, .top-product-section__item-price {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  white-space:pre;
+}
+.top-product-section__item-desc{
+  color: #707070;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-top: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+.desc-min{
+  font-size:13px ;
+}
+.images-content{
+  background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/rose-box-bottom.jpg");
+  background-size: cover;
+  width: 100%;
+  height:833px ;
+}
+
+.two-banner-row{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 87px;
+
+}
+.img-rose-bulb{
+  background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/rose-glass.jpg");
+  background-size: cover;
+  height: 458px;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  max-width: 685px;
+
+
+}
+.img-rose-toys{
+  background:url("https://sbuketami.com.ua//themes/dg-theme/images/sbuketami/rose-toy.jpg");
+  background-size: cover;
+  height: 458px;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  max-width: 685px;
+
+}
+.img-rose-delicious{
+  background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/rose-delicious.jpg");
+  background-size: cover;
+  height: 1275px;
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-end;
+}
+.marginLeft264px{
+  margin-left: 264px;
+  margin-bottom: 60px;
+}
+.marginLeft264px .sb_header_text{
+  font-size: 34px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+
+.section-block-collect{
+  display: flex;
+  justify-content: center;
+}
+.img-assemble-yourself{
+  background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/rose-builder.jpg");
+  background-size: cover;
+  max-width: 665px;
+  height: 998px;
+  display: flex;
+  justify-content: flex-end;
+  margin:20px;
+}
+.section-block-collect  > div > * {
+  margin-left:20px;
+  color:#fff;
+}
+.section-block-collect > div > .sb_button_submit{
+  margin-bottom: 15px;
+}
+.section-block-collect .sb_pre_header_text{
+  margin-bottom:30px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  margin-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+  font-size: 16px;
+  max-width: 600px;
+}
+
+.img-rose-gorgeous{
+  background:url("https://sbuketami.com.ua/themes/dg-theme/images/sbuketami/rose-gorgeous.jpg");
+  background-size: cover;
+  max-width: 665px;
+  height: 998px;
+  display: flex;
+  justify-content: flex-end;
+}

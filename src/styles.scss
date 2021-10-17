@@ -40,6 +40,8 @@ $front-theme: mat.define-light-theme((
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
 
 
 *{
@@ -117,14 +119,20 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 }
 
-
+html ,body {
+//  scrollbar-gutter: stable;
+}
 
 /* полоса прокрутки (скроллбар) */
 ::-webkit-scrollbar {
-  width: 4px; /* ширина для вертикального скролла */
-  height: 2px; /* высота для горизонтального скролла */
+  width: 5px; /* ширина для вертикального скролла */
+  height: 5px; /* высота для горизонтального скролла */
 
 }
+::-webkit-scrollbar-track {
+
+}
+
 
 /* ползунок скроллбара */
 ::-webkit-scrollbar-thumb {
@@ -137,7 +145,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   background-color: #253861;
 }
 
-/* Стрелки */
+/* Стрелки
 
 ::-webkit-scrollbar-button:vertical:start:decrement {
   background: linear-gradient(120deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
@@ -146,4 +154,40 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   background-color: #f6f8f4;
 }
 
+ */
 
+
+.sb_block_action{
+  width: 100%;
+  display: flex;
+  align-items:flex-start;
+  flex-direction:column;
+  margin: 20px;
+
+  .sb_header_text{
+
+    color: white;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+    font-size: 23px;
+  }
+}
+
+
+.sb_button_submit{
+
+  border: 2px solid #ba983b;
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 133px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
