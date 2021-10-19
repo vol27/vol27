@@ -489,17 +489,15 @@
     text-transform: uppercase;
   }
 
-  .paris-box-link::after {
-    content: '\f105';
-    font: 19px/1 FontAwesome;
-    padding-left: 15px;
-  }
+
 }
-.paris-box-star i {
-  color: #E7B848;
-  font-size: 44px;
-  margin-right: 12px;
+paris-box-star{
+  display: flex;
+  justify-content: ;
 }
- .fa-star{
+.star-yellow{
   color: #E7B848;
+  font-size: 54px;
+  margin: 12px
+
 }
